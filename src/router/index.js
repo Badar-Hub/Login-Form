@@ -12,7 +12,7 @@ const routes = [
     children: [
       {
         path: ":id",
-        name: "HelloWorld",
+        name: "Hello-World",
         component: () => import("../components/HelloWorld.vue"),
       },
     ],
